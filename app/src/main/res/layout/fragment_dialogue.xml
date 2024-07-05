@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="X"
+        android:textSize="20sp"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/ET_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:hint="Title"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/ET_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Description"
+        android:minHeight="48dp" />
+    <TextView
+        android:id="@+id/time_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4:20"
+        android:layout_marginTop="200dp"/>
+    <Button
+        android:id="@+id/BTN_changeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выбрать время"
+        android:layout_marginTop="220dp"/>
+    <TextView
+        android:id="@+id/TV_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:layout_marginTop="300dp"/>
+    <Button
+        android:id="@+id/BTN_changeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="До какого"
+        android:layout_marginTop="320dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отложить"
+        android:layout_marginTop="500dp"/>
+
+    <Button
+        android:id="@+id/BTN_addItem"
+        android:layout_marginTop="550dp"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Добавить"
+        android:drawableStart="@drawable/baseline_add_24"
+        />
+    <Button
+        android:id="@+id/BTN_changeItem"
+        android:layout_marginTop="550dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изменить"
+        android:drawableStart="@drawable/baseline_add_24"
+        android:layout_marginStart="150dp"
+        />
+    <Button
+        android:layout_marginTop="550dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отложить"
+        android:drawableStart="@drawable/baseline_add_24"
+        android:layout_marginStart="300dp"
+        />
+</RelativeLayout>
